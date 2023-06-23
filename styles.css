@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header{
+    background-image: url(https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png);
+    background-size: 300px;
+    background-position: 0 0;
+    line-height: 7vh;
+    font-size: 14px;
+    font-weight: 450;
+    color: white;
+    background-color: #E74694;
+    text-shadow: 1px 1px rgba(0,0,0,.1);
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-menu{
+    display: flex;
+}
+
+.header>p>a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-side-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo-side-btn{
+    display: flex;
+    color: rgb(24,59,86);
+    background-color: rgb(235,242,250);
+    margin-top: 0px;
+    padding: 6px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-inline: 12vw;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.drop-down-ul{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-align: start;
+    color: #183b56;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .2s;
+}
+
+.menu li a:hover {
+    color: rgb(34,148,237);
+}
+
+.main-ul-menu{
+    padding-inline: 0.2vw;
+}
+
+.drop-down-ul{
+    display: none;
+    list-style: none;
+}
+
+.product:hover .drop-down-ul{
+    display: block;
+}
+
+.resources:hover .drop-down-ul{
+    display: block;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 10vw;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h1{
+    color: #183b56;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.left-side-div{
+    float: left;
+    width: 40%;
+}
+
+.right-side-div{
+    float: right;
+    width: 50%;
+
+}
+
+.left-side-div>p{
+    margin-top: 20px;
+    color: #577592;
+    text-align: left;
+    align-self: flex-start;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    position: static;
+}
+
+.btn-get-started{
+    background-color: #2294ed;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 30px;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: color .2s;
+    cursor: pointer;
+}
+.btn-get-started:hover{
+    background-color: #0061AB;
+}
+
+.sign-in{
+    color: #183b56;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(185,205,228);
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-family: Averta PE,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.sign-in:hover{
+   color: #2294ed;
+   border-color: #2294ed;
+}
+
+.sign-up{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(34,148,237);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-family: Averta PE,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.sign-up:hover{
+    background-color: #0061AB;
+ }
+
+.one-line-heading>h4{
+    color: #183b56;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: Averta PE,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.logos {
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    padding-inline: 12vw;
+}
+
+.logos>img{
+    align-self: center;
+    width: 110px;
+}
+
+
+
+
